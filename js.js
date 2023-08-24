@@ -77,60 +77,22 @@ context.fill();
 
 
 
-down.onmousedown=function()
-{
-    dir=1;
+down.onclick=function(){
+    dir=1
 }
 
-down.onmouseup=function()
-{
-    dir=0;
-}
-up.onmousedown=function(){
+up.onclick=function(){
 dir=-1;
 }
-up.onmouseup=function(){
-    dir=0;
-}
-right.onmousedown=function(){
-    dir=2;
 
-}
-right.onmouseup=function(){
-    dir=0;
-}
-left.onmousedown=function(){
-    dir=3;
-}
-left.onmouseup=function(){
-    dir=0;
-}
-
-down.ontouchstart=function()
-{
-    dir=1;
-}
-
-// down.ontouchstart=function()
-// {
-//     dir=0;
-// }
-up.ontouchstart=function(){
-dir=-1;
-}
-// up.ontouchstart=function(){
-//     dir=0;
-// }
-right.ontouchstart=function(){
+right.onclick=function(){
     dir=2;
 }
-// right.ontouchstart=function(){
-//     dir=0;
-// }
-left.ontouchstart=function(){
+
+left.onclick=function(){
     dir=3;
 }
-// left.ontouchstart=function(){
+
     
 
 
